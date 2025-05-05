@@ -1,0 +1,180 @@
+html{
+	scroll-behavior: smooth;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: aerial;
+}
+a{
+	color: inherit;
+	text-decoration: 0px;
+}
+body{
+	width: 2686px;
+	height: 6991px;
+	margin: auto;
+}
+main{
+	height: 100%;
+	width: 2014px;
+	margin: auto;
+}
+.head{
+	background: url(images2/headerbg.jpg) 50% 0 no-repeat fixed;
+	height: 1406px;
+	width: 100%;
+}
+.logo img{
+	width: 130px;
+	padding-top: 90px;
+	padding-left: 1390px;
+}
+.title img{
+	width: 400px;
+	position: relative;
+	left: 1570px;
+	bottom: 120px;	
+}
+#head-middle{
+	width: 100%;
+	height: 450px;
+	position: relative;
+	top: 580px;
+	background-attachment: fixed;
+	border-top: #182d55 14px solid;
+	background: rgba(0,0,0,0.5);
+}
+nav{
+	color: white;
+	font-size: 20px;
+	margin-top: 18px;
+	text-align: center;
+}
+nav li{
+	border-right: 1px white solid;
+	display: inline-block;
+	padding: 16px 40px; 
+}
+nav :last-child{
+	border: none;
+}
+.imgdiv{
+	background: #182d55 url(images2/helicopters.jpg) no-repeat center center;
+	height: 182px;
+	width: 1011px;
+	margin: auto;
+	padding: 40px 504px;
+}	
+section{
+	width: 2012px;
+	margin: auto;
+	height: 1091px;
+}
+.leftb{
+	border-bottom: 7px white solid;
+	width: 220px;
+	position: relative;
+	top: 155px;
+	right: 220px;
+	margin: auto;
+}
+.rightb{
+	border-bottom: 7px white solid;
+	width: 220px;
+	position: relative;
+	top: 105px;
+	left: 220px;
+	margin: auto;
+}
+.top{
+	height: 321px;
+	width: 100%;
+	background-size:100% auto;
+	background: url(images2/frameimg1.jpg)50% no-repeat fixed ;
+}
+.overlay{
+	width: 100%;
+	height: 321px;
+	background: rgba(0,0,0,0.5);
+}
+.top .heading{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 8px white solid;
+}
+.heading{
+	font: 26px bold ;
+	color: white;
+	margin: auto;
+	width: 250px;
+	position: relative;
+	top: 130px;
+}
+.discription{
+	line-height: 30px;
+	text-align: center;
+	font-size: 24px;
+	margin-top: 100px;
+	color: #182D55;
+}
+.top2{
+	height: 321px;
+	width: 100%;
+	background-size:100% auto;
+	background: url(images2/frameimg2.jpg) 50% 0 no-repeat fixed;
+}
+.top3{
+	height: 321px;
+	width: 100%;
+	background-size:100% auto;
+	background: url(images2/frameimg3.jpg)50% no-repeat fixed ;
+}
+.top4{
+	height: 321px;
+	width: 100%;
+	background-size:100% auto;
+	background: url(images2/frameimg4.jpg)50% no-repeat fixed ;
+}
+.top5{
+	height: 321px;
+	width: 100%;
+	background-size:100% auto;
+	background: url(images2/frameimg5.jpg)50% no-repeat fixed ;
+}
+.top2 .heading{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 8px white solid;
+}
+.top3 .heading{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 8px white solid;
+}
+.top4 .heading{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 8px white solid;
+}
+.top5 .heading{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: 8px white solid;
+}
+.contact-us{
+	width: 840px;
+	margin: 0px auto;
+	margin-top: 110px;
+	font-family: "times New Roman";
+	font-size: 26px;
+	color: #182D55;
+	text-align: center;
+	line-height: 55px;
+	border-bottom: #273b60 2px solid;
+}
